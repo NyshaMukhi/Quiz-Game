@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lily Script One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lilita One">
+    <script src="script.js"> </script>
+</head>
+<body>
+    <h1> Quiz Generator - Mathematics </h1>
+   <ul>
+    <li <a href="#d1"> Mathematics </a> </li>
+    <li> <a href="Science.html"> Science </a> </li>
+    <li><a href="riddle.html"> Riddles </a></li>
+   </ul> <br> <br> 
+   <label id="scorewrittenl"> Score: </label>
+   <label id="scorel"> 0 </label> <br> <br> <br>
+   <div id="d1"> 
+       <label> Answer the question below by choosing one of the given options. </label> <br> <br>
+       <label id="questionl"> Find the sum of 111 + 222 + 333 </label> <br> <br>
+       <input type="radio" onclick="CheckAnswer()" id="rb1"> <label id="option1l"> 700 </label> <br>
+       <input type="radio" onclick="CheckAnswer()" id="rb2"> <label id="option2l"> 666 </label> <br> 
+       <input type="radio" onclick="CheckAnswer()" id="rb3"> <label id="option3l"> 10 </label> <br> <br>
+   </div>
+   <button onclick="NextClick()" id="nextbutton"> Next Question </button>
+</body>
+</html>

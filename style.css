@@ -1,0 +1,46 @@
+ul{
+    margin:0px;
+    padding: 0px;
+    background-color: rgb(216, 8, 105);
+    text-align: center;
+}
+li{
+    display: inline;
+    text-align: center;
+    font-size: 25px;
+    color: rgb(255, 255, 255);
+    padding-right: 25px;
+    font-family: 'Lily Script One';
+}
+a{
+    text-decoration: none;
+    color:white;
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    font-family: 'Lily Script One';
+}
+body{
+    background-color: rgba(44, 165, 196, 0.486);
+}
+#scorewrittenl{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lilita One';
+}
+#scorel{
+    text-align: center;
+    font-size: 30px;
+    font-family: 'Lilita One'; 
+}
+#nextbutton{
+    background-color: rgb(235, 46, 203);
+    color: white;
+    border-radius: 3px;
+    border-color: black;
+}
+#d1{
+    font-family: "Lilita One";
+    font-size: 25px;
+}

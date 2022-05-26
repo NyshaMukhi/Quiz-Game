@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Quiz Website </title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lily Script One">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lilita One">
+</head>
+<body>
+    <h1> Quiz Generator - Science </h1>
+   <ul>
+    <li <a href="index.html"> Mathematics </a> </li>
+    <li> <a href="#d1"> Science </a> </li>
+    <li><a href="riddle.html"> Riddles </a></li>
+   </ul> <br> <br> 
+   <label id="scorewrittenl"> Score: </label>
+   <label id="scorel"> 0 </label> <br> <br> <br>
+   <div id="d1"> 
+       <label> Answer the question below by choosing one of the given options. </label> <br> <br>
+       <label id="questionl"> Who invented periodic table? </label> <br> <br>
+       <input type="radio" onclick="CheckAnswer()"> <label> Dmitri Mendeleev </label> <br>
+       <input type="radio" onclick="CheckAnswer()"> <label> Newton </label> <br> 
+       <input type="radio" onclick="CheckAnswer()"> <label> Rinky Martin </label> <br> <br>
+   </div>
+   <button onclick="NextClick()" id="nextbutton"> Next Question </button>
+</body>
+</html>
